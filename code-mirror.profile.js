@@ -10,7 +10,35 @@ var profile = (function() {
 		return (COPY_ONLY_LIST.indexOf(mid) > -1) || !(/js$/.test(filename) || /css$/.test(filename));
 	};
 
-	var notAmdList = [];
+	var notAmdList = [
+		"code-mirror/addon/lint/linter/jsonlint",
+		"code-mirror/addon/mode/multiplex_test",
+		"code-mirror/addon/runmode/runmode-standalone",
+		"code-mirror/addon/runmode/runmode.node",
+		"code-mirror/doc/activebookmark",
+		"code-mirror/mode/clike/test",
+		"code-mirror/mode/css/gss_test",
+		"code-mirror/mode/css/less_test",
+		"code-mirror/mode/css/scss_test",
+		"code-mirror/mode/css/test",
+		"code-mirror/mode/gfm/test",
+		"code-mirror/mode/haml/test",
+		"code-mirror/mode/javascript/test",
+		"code-mirror/mode/markdown/test",
+		"code-mirror/mode/mscgen/mscgen_test",
+		"code-mirror/mode/mscgen/msgenny_test",
+		"code-mirror/mode/mscgen/xu_test",
+		"code-mirror/mode/php/test",
+		"code-mirror/mode/ruby/test",
+		"code-mirror/mode/rust/test",
+		"code-mirror/mode/shell/test",
+		"code-mirror/mode/slim/test",
+		"code-mirror/mode/stex/test",
+		"code-mirror/mode/textile/test",
+		"code-mirror/mode/verilog/test",
+		"code-mirror/mode/xml/test",
+		"code-mirror/mode/xquery/test"
+	];
 
 	var ignorePatternList = [];
 
