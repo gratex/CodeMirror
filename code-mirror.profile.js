@@ -11,7 +11,6 @@ var profile = (function() {
 	};
 
 	var notAmdList = [
-		"code-mirror/addon/lint/linter/jsonlint",
 		"code-mirror/addon/mode/multiplex_test",
 		"code-mirror/addon/runmode/runmode-standalone",
 		"code-mirror/addon/runmode/runmode.node",
